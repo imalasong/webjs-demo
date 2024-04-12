@@ -1,0 +1,19 @@
+{
+  "name": "web3js-playground",
+  "private": true,
+  "scripts": {
+    "start": "ts-node-dev --respawn index.ts",
+    "eth-example": "ts-node web3Eth.ts",
+    "ens-example": "ts-node web3ENS.ts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "solc": "^0.8.25",
+    "ts-node": "^10.9.2",
+    "web3": "^4.7.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
